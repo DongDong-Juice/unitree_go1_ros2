@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000104] (-) JobUnselected: {'identifier': 'ros2_unitree_legged_msgs'}
+[0.000130] (unitree_legged_real) JobQueued: {'identifier': 'unitree_legged_real', 'dependencies': OrderedDict([('ros2_unitree_legged_msgs', '/home/dong/ros2_ws/install/ros2_unitree_legged_msgs')])}
+[0.000148] (unitree_legged_real) JobStarted: {'identifier': 'unitree_legged_real'}
+[0.054119] (unitree_legged_real) JobProgress: {'identifier': 'unitree_legged_real', 'progress': 'cmake'}
+[0.055990] (unitree_legged_real) JobProgress: {'identifier': 'unitree_legged_real', 'progress': 'build'}
+[0.057727] (unitree_legged_real) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dong/ros2_ws/build/unitree_legged_real', '--', '-j8', '-l8'], 'cwd': '/home/dong/ros2_ws/build/unitree_legged_real', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_AU:en'), ('USER', 'dong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dong'), ('OLDPWD', '/home/dong/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1520'), ('SYSTEMD_EXEC_PID', '1951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2511'), ('COLCON_PREFIX_PATH', '/home/dong/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dong'), ('JOURNAL_STREAM', '8:32145'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dong-Vostro-15-5510:@/tmp/.ICE-unix/1926,unix/dong-Vostro-15-5510:/tmp/.ICE-unix/1926'), ('INVOCATION_ID', 'b4ccb83a5d024523926400d116524495'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dong/ros2_ws/install/unitree_legged_real:/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cfdba054-320b-43f4-a6a5-cd7062797225'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dong/ros2_ws/build/unitree_legged_real'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble')]), 'shell': False}
+[0.099493] (-) TimerEvent: {}
+[0.155640] (unitree_legged_real) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o\x1b[0m\n'}
+[0.155842] (unitree_legged_real) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o\x1b[0m\n'}
+[0.155911] (unitree_legged_real) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o\x1b[0m\n'}
+[0.199676] (-) TimerEvent: {}
+[0.299944] (-) TimerEvent: {}
+[0.400197] (-) TimerEvent: {}
+[0.500470] (-) TimerEvent: {}
+[0.600835] (-) TimerEvent: {}
+[0.701118] (-) TimerEvent: {}
+[0.801439] (-) TimerEvent: {}
+[0.901778] (-) TimerEvent: {}
+[1.002172] (-) TimerEvent: {}
+[1.102531] (-) TimerEvent: {}
+[1.202890] (-) TimerEvent: {}
+[1.303254] (-) TimerEvent: {}
+[1.403508] (-) TimerEvent: {}
+[1.503774] (-) TimerEvent: {}
+[1.604055] (-) TimerEvent: {}
+[1.704413] (-) TimerEvent: {}
+[1.804760] (-) TimerEvent: {}
+[1.905117] (-) TimerEvent: {}
+[2.005469] (-) TimerEvent: {}
+[2.105818] (-) TimerEvent: {}
+[2.206072] (-) TimerEvent: {}
+[2.256698] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[2.256864] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[2.256912] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[2.256953] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[2.256992] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[2.257030] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[2.257067] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[2.257105] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14\x1b[m\x1b[K,\n'}
+[2.257147] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11\x1b[m\x1b[K,\n'}
+[2.257185] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6\x1b[m\x1b[K:\n'}
+[2.257222] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.257263] (unitree_legged_real) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[2.257301] (unitree_legged_real) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.261725] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:7\x1b[m\x1b[K:\n'}
+[2.261859] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::HighCmd rosMsg2Cmd(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.261904] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:44:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct UNITREE_LEGGED_SDK::HighCmd\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpostion\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kposition\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.261947] (unitree_legged_real) StderrLine: {'line': b'   44 |         cmd.\x1b[01;31m\x1b[Kpostion\x1b[m\x1b[K[i] = msg->position[i];\n'}
+[2.261986] (unitree_legged_real) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.262023] (unitree_legged_real) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kposition\x1b[m\x1b[K\n'}
+[2.266042] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.266188] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:22:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before string constant\n'}
+[2.266239] (unitree_legged_real) StderrLine: {'line': b'   22 | \x1b[01;31m\x1b[K"192.168.12.168"\x1b[m\x1b[K "wifi"\n'}
+[2.266283] (unitree_legged_real) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.266437] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:34:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KCustom::Custom()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.266574] (unitree_legged_real) StderrLine: {'line': b'   34 | Custom \x1b[01;31m\x1b[Kcustom\x1b[m\x1b[K;\n'}
+[2.266622] (unitree_legged_real) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.266664] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCustom::Custom()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[2.266706] (unitree_legged_real) StderrLine: {'line': b'   10 | class \x1b[01;36m\x1b[KCustom\x1b[m\x1b[K\n'}
+[2.266745] (unitree_legged_real) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.266890] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:10:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::UDP::UDP()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.266979] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10\x1b[m\x1b[K,\n'}
+[2.267020] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6\x1b[m\x1b[K:\n'}
+[2.267060] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.267100] (unitree_legged_real) StderrLine: {'line': b'   46 |   \x1b[01;36m\x1b[KUDP\x1b[m\x1b[K(uint16_t localPort,\n'}
+[2.267137] (unitree_legged_real) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.267188] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 6 arguments, 0 provided\n'}
+[2.267231] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, const char*, uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.267273] (unitree_legged_real) StderrLine: {'line': b'   44 |   \x1b[01;36m\x1b[KUDP\x1b[m\x1b[K(uint16_t localPort, const char* targetIP, uint16_t targetPort,\n'}
+[2.267310] (unitree_legged_real) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.267346] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 0 provided\n'}
+[2.267383] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10\x1b[m\x1b[K,\n'}
+[2.267419] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6\x1b[m\x1b[K:\n'}
+[2.267456] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::UDP::UDP(uint8_t, uint16_t, const char*, uint16_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.267497] (unitree_legged_real) StderrLine: {'line': b'   43 |   \x1b[01;36m\x1b[KUDP\x1b[m\x1b[K(uint8_t level, uint16_t localPort, const char* targetIP, uint16_t targetPort);  // udp use dafault length according to level\n'}
+[2.267535] (unitree_legged_real) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.267572] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[2.267610] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr UNITREE_LEGGED_SDK::UDP::UDP(const UNITREE_LEGGED_SDK::UDP&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.267650] (unitree_legged_real) StderrLine: {'line': b'   41 | class \x1b[01;36m\x1b[KUDP\x1b[m\x1b[K {\n'}
+[2.267688] (unitree_legged_real) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.267726] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.267763] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:10:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::UDP::UDP()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.267801] (unitree_legged_real) StderrLine: {'line': b'   10 | class \x1b[01;31m\x1b[KCustom\x1b[m\x1b[K\n'}
+[2.267838] (unitree_legged_real) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.267876] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10\x1b[m\x1b[K,\n'}
+[2.267913] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6\x1b[m\x1b[K:\n'}
+[2.267950] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.267989] (unitree_legged_real) StderrLine: {'line': b'   46 |   \x1b[01;36m\x1b[KUDP\x1b[m\x1b[K(uint16_t localPort,\n'}
+[2.268026] (unitree_legged_real) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.268064] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 6 arguments, 0 provided\n'}
+[2.268107] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, const char*, uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.268146] (unitree_legged_real) StderrLine: {'line': b'   44 |   \x1b[01;36m\x1b[KUDP\x1b[m\x1b[K(uint16_t localPort, const char* targetIP, uint16_t targetPort,\n'}
+[2.268185] (unitree_legged_real) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.268224] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 0 provided\n'}
+[2.268263] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10\x1b[m\x1b[K,\n'}
+[2.268301] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6\x1b[m\x1b[K:\n'}
+[2.268339] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::UDP::UDP(uint8_t, uint16_t, const char*, uint16_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.268386] (unitree_legged_real) StderrLine: {'line': b'   43 |   \x1b[01;36m\x1b[KUDP\x1b[m\x1b[K(uint8_t level, uint16_t localPort, const char* targetIP, uint16_t targetPort);  // udp use dafault length according to level\n'}
+[2.268428] (unitree_legged_real) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.268466] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[2.268505] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr UNITREE_LEGGED_SDK::UDP::UDP(const UNITREE_LEGGED_SDK::UDP&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.268544] (unitree_legged_real) StderrLine: {'line': b'   41 | class \x1b[01;36m\x1b[KUDP\x1b[m\x1b[K {\n'}
+[2.268583] (unitree_legged_real) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.268620] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.285605] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[2.285747] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[2.285796] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[2.285837] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[2.285876] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[2.285914] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[2.285951] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[2.285989] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14\x1b[m\x1b[K,\n'}
+[2.286028] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11\x1b[m\x1b[K,\n'}
+[2.286066] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_position_example.cpp:6\x1b[m\x1b[K:\n'}
+[2.286104] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.286145] (unitree_legged_real) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[2.286182] (unitree_legged_real) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.289539] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_position_example.cpp:7\x1b[m\x1b[K:\n'}
+[2.289686] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::HighCmd rosMsg2Cmd(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.289733] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:44:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct UNITREE_LEGGED_SDK::HighCmd\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpostion\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kposition\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.289780] (unitree_legged_real) StderrLine: {'line': b'   44 |         cmd.\x1b[01;31m\x1b[Kpostion\x1b[m\x1b[K[i] = msg->position[i];\n'}
+[2.289820] (unitree_legged_real) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.289862] (unitree_legged_real) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kposition\x1b[m\x1b[K\n'}
+[2.292846] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[2.292990] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[2.293038] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[2.293079] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[2.293116] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[2.293154] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[2.293191] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[2.293228] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14\x1b[m\x1b[K,\n'}
+[2.293266] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11\x1b[m\x1b[K,\n'}
+[2.293303] (unitree_legged_real) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_walk_example.cpp:6\x1b[m\x1b[K:\n'}
+[2.293350] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.293395] (unitree_legged_real) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[2.293431] (unitree_legged_real) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296671] (unitree_legged_real) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_walk_example.cpp:7\x1b[m\x1b[K:\n'}
+[2.296725] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KUNITREE_LEGGED_SDK::HighCmd rosMsg2Cmd(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.296769] (unitree_legged_real) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:44:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct UNITREE_LEGGED_SDK::HighCmd\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpostion\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kposition\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.296815] (unitree_legged_real) StderrLine: {'line': b'   44 |         cmd.\x1b[01;31m\x1b[Kpostion\x1b[m\x1b[K[i] = msg->position[i];\n'}
+[2.296855] (unitree_legged_real) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.296892] (unitree_legged_real) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kposition\x1b[m\x1b[K\n'}
+[2.306196] (-) TimerEvent: {}
+[2.406555] (-) TimerEvent: {}
+[2.506840] (-) TimerEvent: {}
+[2.607205] (-) TimerEvent: {}
+[2.707547] (-) TimerEvent: {}
+[2.807901] (-) TimerEvent: {}
+[2.906401] (unitree_legged_real) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_position_example.dir/build.make:76: CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[2.906590] (unitree_legged_real) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ros2_position_example.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[2.906663] (unitree_legged_real) StderrLine: {'line': b'gmake[1]: *** \xeb\x81\x9d\xeb\x82\x98\xec\xa7\x80 \xec\x95\x8a\xec\x9d\x80 \xec\x9e\x91\xec\x97\x85\xec\x9d\x84 \xea\xb8\xb0\xeb\x8b\xa4\xeb\xa6\xac\xea\xb3\xa0 \xec\x9e\x88\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4....\n'}
+[2.906985] (unitree_legged_real) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_walk_example.dir/build.make:76: CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[2.907219] (unitree_legged_real) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ros2_walk_example.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[2.907971] (-) TimerEvent: {}
+[3.008230] (-) TimerEvent: {}
+[3.108581] (-) TimerEvent: {}
+[3.208934] (-) TimerEvent: {}
+[3.309269] (-) TimerEvent: {}
+[3.409609] (-) TimerEvent: {}
+[3.509959] (-) TimerEvent: {}
+[3.610323] (-) TimerEvent: {}
+[3.710682] (-) TimerEvent: {}
+[3.811038] (-) TimerEvent: {}
+[3.911402] (-) TimerEvent: {}
+[4.011727] (-) TimerEvent: {}
+[4.112070] (-) TimerEvent: {}
+[4.212387] (-) TimerEvent: {}
+[4.312731] (-) TimerEvent: {}
+[4.413071] (-) TimerEvent: {}
+[4.513411] (-) TimerEvent: {}
+[4.606197] (unitree_legged_real) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[4.606357] (unitree_legged_real) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ros2_udp.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[4.606436] (unitree_legged_real) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[4.607876] (unitree_legged_real) CommandEnded: {'returncode': 2}
+[4.613500] (-) TimerEvent: {}
+[4.692613] (unitree_legged_real) JobEnded: {'identifier': 'unitree_legged_real', 'rc': 2}
+[4.703147] (-) EventReactorShutdown: {}

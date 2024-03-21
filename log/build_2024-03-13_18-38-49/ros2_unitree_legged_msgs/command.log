@@ -1,0 +1,2 @@
+Invoking command in '/home/dong/ros2_ws/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dong/ros2_ws/build/ros2_unitree_legged_msgs -- -j8 -l8
+Invoked command in '/home/dong/ros2_ws/build/ros2_unitree_legged_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dong/ros2_ws/build/ros2_unitree_legged_msgs -- -j8 -l8

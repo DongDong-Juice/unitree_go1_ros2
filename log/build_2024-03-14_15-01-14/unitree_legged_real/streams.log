@@ -1,0 +1,38 @@
+[0.051s] Invoking command in '/home/dong/ros2_ws/build/unitree_legged_real': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/ros2_ws/build/unitree_legged_real -- -j8 -l8
+[0.067s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.148s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.167s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.172s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.227s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.228s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.417s] -- Found ros2_unitree_legged_msgs: 0.4.0 (/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+[0.426s] [0m-- CMAKE_SYSTEM_PROCESSOR: x86_64[0m
+[0.482s] -- Configuring done
+[0.490s] -- Generating done
+[0.491s] -- Build files have been written to: /home/dong/ros2_ws/build/unitree_legged_real
+[0.508s] [35m[1mConsolidate compiler generated dependencies of target ros2_walk_example[0m
+[0.508s] [35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[0.508s] [35m[1mConsolidate compiler generated dependencies of target ros2_position_example[0m
+[0.523s] [ 66%] Built target ros2_udp
+[0.523s] [ 66%] Built target ros2_position_example
+[0.523s] [100%] Built target ros2_walk_example
+[0.531s] Invoked command in '/home/dong/ros2_ws/build/unitree_legged_real' returned '0': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/ros2_ws/build/unitree_legged_real -- -j8 -l8
+[0.559s] Invoking command in '/home/dong/ros2_ws/build/unitree_legged_real': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dong/ros2_ws/build/unitree_legged_real
+[0.563s] -- Install configuration: ""
+[0.563s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+[0.564s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+[0.564s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+[0.564s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/lib
+[0.564s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+[0.564s] [31mCMake Error at cmake_install.cmake:110 (file):
+[0.564s]   file INSTALL cannot find
+[0.564s]   "/home/dong/ros2_ws/src/unitree_ros2_to_real/control": No such file or
+[0.564s]   directory.
+[0.564s] 
+[0.564s] [0m
+[0.564s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+[0.565s] Invoked command in '/home/dong/ros2_ws/build/unitree_legged_real' returned '1': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dong/ros2_ws/build/unitree_legged_real

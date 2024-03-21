@@ -1,0 +1,118 @@
+/usr/bin/ld: cannot find -lunitree_legged_sdk_amd64: /usr/bin/ld: cannot find -lunitree_legged_sdk_amd64: 그런 파일이나 디렉터리가 없습니다
+그런 파일이나 디렉터리가 없습니다
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ros2_walk_example.dir/build.make:159: ros2_walk_example] 오류 1
+gmake[2]: *** [CMakeFiles/ros2_position_example.dir/build.make:159: ros2_position_example] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ros2_walk_example.dir/all] 오류 2
+gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ros2_position_example.dir/all] 오류 2
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:38:8:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Kcustom[m[K’ has incomplete type ‘[01m[KCustom[m[K’
+   38 | Custom [01;31m[Kcustom[m[K;
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:10:7:[m[K [01;36m[Knote: [m[Kdefinition of ‘[01m[Kclass Custom[m[K’ is not complete until the closing brace
+   10 | class [01;36m[KCustom[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:125:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  125 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:11:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   11 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:[m[K In constructor ‘[01m[KCustom::Custom()[m[K’:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:31:85:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   31 |           high_udp(8090, "192.168.123.161" , 8082, sizeof(HighCmd), sizeof(HighState[01;31m[K)[m[K
+      |                                                                                     [01;31m[K^[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:35:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP()[m[K’
+   35 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum, bool)[m[K’
+   46 |   [01;36m[KUDP[m[K(uint16_t localPort,
+      |   [01;36m[K^~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 0 provided
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, const char*, uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum)[m[K’
+   44 |   [01;36m[KUDP[m[K(uint16_t localPort, const char* targetIP, uint16_t targetPort,
+      |   [01;36m[K^~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint8_t, uint16_t, const char*, uint16_t)[m[K’
+   43 |   [01;36m[KUDP[m[K(uint8_t level, uint16_t localPort, const char* targetIP, uint16_t targetPort);  // udp use dafault length according to level
+      |   [01;36m[K^~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr UNITREE_LEGGED_SDK::UDP::UDP(const UNITREE_LEGGED_SDK::UDP&)[m[K’
+   41 | class [01;36m[KUDP[m[K {
+      |       [01;36m[K^~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:35:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP()[m[K’
+   35 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum, bool)[m[K’
+   46 |   [01;36m[KUDP[m[K(uint16_t localPort,
+      |   [01;36m[K^~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 0 provided
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, const char*, uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum)[m[K’
+   44 |   [01;36m[KUDP[m[K(uint16_t localPort, const char* targetIP, uint16_t targetPort,
+      |   [01;36m[K^~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint8_t, uint16_t, const char*, uint16_t)[m[K’
+   43 |   [01;36m[KUDP[m[K(uint8_t level, uint16_t localPort, const char* targetIP, uint16_t targetPort);  // udp use dafault length according to level
+      |   [01;36m[K^~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr UNITREE_LEGGED_SDK::UDP::UDP(const UNITREE_LEGGED_SDK::UDP&)[m[K’
+   41 | class [01;36m[KUDP[m[K {
+      |       [01;36m[K^~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:36:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K}[m[K’ token
+   36 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:[m[K In member function ‘[01m[Kvoid Custom::highCmdCallback(ros2_unitree_legged_msgs::msg::HighCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:51:53:[m[K [01;31m[Kerror: [m[K‘[01m[K::high_count[m[K’ has not been declared
+   51 |     printf("highCmdCallback is running !\t%ld\n", ::[01;31m[Khigh_count[m[K);
+      |                                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:67:51:[m[K [01;31m[Kerror: [m[K‘[01m[K::high_count[m[K’ has not been declared
+   67 |     printf("highCmdCallback ending !\t%ld\n\n", ::[01;31m[Khigh_count[m[K++);
+      |                                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:[m[K In member function ‘[01m[Kvoid Custom::lowCmdCallback(ros2_unitree_legged_msgs::msg::LowCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:89:49:[m[K [01;31m[Kerror: [m[K‘[01m[K::low_count[m[K’ has not been declared
+   89 |     printf("lowCmdCallback ending!\t%ld\n\n", ::[01;31m[Klow_count[m[K++);
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:[m[K In member function ‘[01m[Kint Custom::main(int, char**)[m[K’:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:103:98:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Custom::lowCmdCallback(ros2_unitree_legged_msgs::msg::LowCmd_<std::allocator<void> >::SharedPtr)[m[K’
+  103 |         sub_low = node->create_subscription<ros2_unitree_legged_msgs::msg::LowCmd>("low_cmd", 1, [01;31m[KlowCmdCallback[m[K);
+      |                                                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:70:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   70 | void [01;36m[KlowCmdCallback[m[K(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:112:101:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Custom::highCmdCallback(ros2_unitree_legged_msgs::msg::HighCmd_<std::allocator<void> >::SharedPtr)[m[K’
+  112 |         sub_high = node->create_subscription<ros2_unitree_legged_msgs::msg::HighCmd>("high_cmd", 1, [01;31m[KhighCmdCallback[m[K);
+      |                                                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:49:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   49 | void [01;36m[KhighCmdCallback[m[K(const ros2_unitree_legged_msgs::msg::HighCmd::SharedPtr msg)
+      |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:[m[K At global scope:
+[01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:125:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  125 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ros2_udp.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

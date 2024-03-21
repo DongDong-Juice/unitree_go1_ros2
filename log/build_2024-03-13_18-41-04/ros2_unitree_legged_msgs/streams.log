@@ -1,0 +1,9 @@
+[0.049s] Invoking command in '/home/dong/ros2_ws/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dong/ros2_ws/build/ros2_unitree_legged_msgs -- -j8 -l8
+[0.083s] failed to create symbolic link '/home/dong/ros2_ws/build/ros2_unitree_legged_msgs/ament_cmake_python/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs' because existing path cannot be removed: Is a directory
+[0.083s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ros2_unitree_legged_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ros2_unitree_legged_msgs] 오류 1
+[0.083s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ros2_unitree_legged_msgs.dir/all] 오류 2
+[0.084s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.084s] [  0%] Built target ros2_unitree_legged_msgs__cpp
+[0.085s] [ 12%] Built target ros2_unitree_legged_msgs__rosidl_generator_c
+[0.086s] gmake: *** [Makefile:146: all] 오류 2
+[0.087s] Invoked command in '/home/dong/ros2_ws/build/ros2_unitree_legged_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dong/ros2_ws/build/ros2_unitree_legged_msgs -- -j8 -l8

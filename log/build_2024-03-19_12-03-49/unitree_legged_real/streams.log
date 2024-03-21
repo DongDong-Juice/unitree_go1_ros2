@@ -1,0 +1,81 @@
+[0.007s] Invoking command in '/home/dong/ros2_ws/build/unitree_legged_real': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/ros2_ws/build/unitree_legged_real -- -j8 -l8
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target ros2_position_example[0m
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target ros2_walk_example[0m
+[0.049s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[0.049s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[2.051s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[2.051s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[2.051s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[2.051s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[2.051s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[2.052s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[2.052s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.052s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[2.052s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[2.052s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_position_example.cpp:6[m[K:
+[2.052s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.052s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.052s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.061s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[2.061s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[2.061s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[2.061s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[2.061s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[2.061s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[2.062s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.062s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[2.062s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[2.062s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[2.062s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.062s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.062s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.068s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[2.069s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[2.069s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[2.069s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[2.069s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[2.069s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[2.069s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.069s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[2.069s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[2.069s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_walk_example.cpp:6[m[K:
+[2.069s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.069s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.069s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.277s] [ 66%] [32m[1mLinking CXX executable ros2_position_example[0m
+[4.282s] [ 83%] [32m[1mLinking CXX executable ros2_walk_example[0m
+[4.376s] [ 83%] Built target ros2_position_example
+[4.377s] [ 83%] Built target ros2_walk_example
+[10.839s] [100%] [32m[1mLinking CXX executable ros2_udp[0m
+[10.968s] [100%] Built target ros2_udp
+[10.977s] Invoked command in '/home/dong/ros2_ws/build/unitree_legged_real' returned '0': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/ros2_ws/build/unitree_legged_real -- -j8 -l8
+[10.998s] Invoking command in '/home/dong/ros2_ws/build/unitree_legged_real': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dong/ros2_ws/build/unitree_legged_real
+[11.003s] -- Install configuration: ""
+[11.003s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/control.py
+[11.004s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+[11.005s] -- Set runtime path of "/home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp" to ""
+[11.006s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+[11.006s] -- Set runtime path of "/home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example" to ""
+[11.007s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+[11.007s] -- Set runtime path of "/home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example" to ""
+[11.007s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/lib
+[11.007s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+[11.008s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+[11.008s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+[11.008s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+[11.009s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+[11.009s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+[11.009s] -- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+[11.009s] -- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/package.xml
+[11.011s] Invoked command in '/home/dong/ros2_ws/build/unitree_legged_real' returned '0': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dong/ros2_ws/build/unitree_legged_real

@@ -1,0 +1,5 @@
+[0m-- CMAKE_SYSTEM_PROCESSOR: x86_64[0m
+[0mCMake Error: Cannot determine link language for target "control".[0m
+[0mCMake Error: CMake can not determine linker language for target: control[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:363: cmake_check_build_system] 오류 1

@@ -1,0 +1,77 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_position_example[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_walk_example[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_position_example.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+                 from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_walk_example.cpp:6[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable ros2_position_example[0m
+[ 83%] [32m[1mLinking CXX executable ros2_walk_example[0m
+[ 83%] Built target ros2_position_example
+[ 83%] Built target ros2_walk_example
+[100%] [32m[1mLinking CXX executable ros2_udp[0m
+[100%] Built target ros2_udp
+-- Install configuration: ""
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/control.py
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+-- Set runtime path of "/home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp" to ""
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+-- Set runtime path of "/home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example" to ""
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+-- Set runtime path of "/home/dong/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example" to ""
+-- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/lib
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+-- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+-- Installing: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+-- Up-to-date: /home/dong/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/package.xml

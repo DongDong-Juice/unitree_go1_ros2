@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/src/unitree_ros2_to_real" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/unitree_ros2_to_real/unitree_legged_sdk" vcs="Git" />
+  </component>
+</project>

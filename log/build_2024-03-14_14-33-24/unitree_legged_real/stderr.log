@@ -1,0 +1,6 @@
+[0m-- CMAKE_SYSTEM_PROCESSOR: x86_64[0m
+[31mCMake Error at CMakeLists.txt:44 (install):
+  install TARGETS given target "control" which does not exist.
+
+[0m
+gmake: *** [Makefile:349: cmake_check_build_system] 오류 1

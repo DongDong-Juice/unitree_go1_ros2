@@ -1,0 +1,124 @@
+[0.059s] Invoking command in '/home/dong/ros2_ws/build/unitree_legged_real': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/ros2_ws/build/unitree_legged_real -- -j8 -l8
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[2.257s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[2.257s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[2.257s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[2.257s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[2.257s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[2.257s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[2.257s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.257s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[2.257s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[2.257s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[2.257s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.257s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.257s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.262s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:7[m[K:
+[2.262s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:[m[K In function ‘[01m[KUNITREE_LEGGED_SDK::HighCmd rosMsg2Cmd(const SharedPtr&)[m[K’:
+[2.262s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct UNITREE_LEGGED_SDK::HighCmd[m[K’ has no member named ‘[01m[Kpostion[m[K’; did you mean ‘[01m[Kposition[m[K’?
+[2.262s]    44 |         cmd.[01;31m[Kpostion[m[K[i] = msg->position[i];
+[2.262s]       |             [01;31m[K^~~~~~~[m[K
+[2.262s]       |             [32m[Kposition[m[K
+[2.266s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:[m[K At global scope:
+[2.266s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:22:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[2.266s]    22 | [01;31m[K"192.168.12.168"[m[K "wifi"
+[2.266s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.266s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:34:8:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KCustom::Custom()[m[K’
+[2.266s]    34 | Custom [01;31m[Kcustom[m[K;
+[2.267s]       |        [01;31m[K^~~~~~[m[K
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[KCustom::Custom()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[2.267s]    10 | class [01;36m[KCustom[m[K
+[2.267s]       |       [01;36m[K^~~~~~[m[K
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:10:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP()[m[K’
+[2.267s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+[2.267s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum, bool)[m[K’
+[2.267s]    46 |   [01;36m[KUDP[m[K(uint16_t localPort,
+[2.267s]       |   [01;36m[K^~~[m[K
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 0 provided
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, const char*, uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum)[m[K’
+[2.267s]    44 |   [01;36m[KUDP[m[K(uint16_t localPort, const char* targetIP, uint16_t targetPort,
+[2.267s]       |   [01;36m[K^~~[m[K
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+[2.267s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+[2.267s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint8_t, uint16_t, const char*, uint16_t)[m[K’
+[2.267s]    43 |   [01;36m[KUDP[m[K(uint8_t level, uint16_t localPort, const char* targetIP, uint16_t targetPort);  // udp use dafault length according to level
+[2.267s]       |   [01;36m[K^~~[m[K
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[2.267s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr UNITREE_LEGGED_SDK::UDP::UDP(const UNITREE_LEGGED_SDK::UDP&)[m[K’
+[2.268s]    41 | class [01;36m[KUDP[m[K {
+[2.268s]       |       [01;36m[K^~~[m[K
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:10:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP()[m[K’
+[2.268s]    10 | class [01;31m[KCustom[m[K
+[2.268s]       |       [01;31m[K^~~~~~[m[K
+[2.268s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+[2.268s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum, bool)[m[K’
+[2.268s]    46 |   [01;36m[KUDP[m[K(uint16_t localPort,
+[2.268s]       |   [01;36m[K^~~[m[K
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 0 provided
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, const char*, uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum)[m[K’
+[2.268s]    44 |   [01;36m[KUDP[m[K(uint16_t localPort, const char* targetIP, uint16_t targetPort,
+[2.268s]       |   [01;36m[K^~~[m[K
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+[2.268s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+[2.268s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint8_t, uint16_t, const char*, uint16_t)[m[K’
+[2.268s]    43 |   [01;36m[KUDP[m[K(uint8_t level, uint16_t localPort, const char* targetIP, uint16_t targetPort);  // udp use dafault length according to level
+[2.268s]       |   [01;36m[K^~~[m[K
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr UNITREE_LEGGED_SDK::UDP::UDP(const UNITREE_LEGGED_SDK::UDP&)[m[K’
+[2.268s]    41 | class [01;36m[KUDP[m[K {
+[2.268s]       |       [01;36m[K^~~[m[K
+[2.268s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.286s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[2.286s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[2.286s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[2.286s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[2.286s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[2.286s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[2.286s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.286s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[2.286s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[2.286s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_position_example.cpp:6[m[K:
+[2.286s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.286s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.286s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.289s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_position_example.cpp:7[m[K:
+[2.290s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:[m[K In function ‘[01m[KUNITREE_LEGGED_SDK::HighCmd rosMsg2Cmd(const SharedPtr&)[m[K’:
+[2.290s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct UNITREE_LEGGED_SDK::HighCmd[m[K’ has no member named ‘[01m[Kpostion[m[K’; did you mean ‘[01m[Kposition[m[K’?
+[2.290s]    44 |         cmd.[01;31m[Kpostion[m[K[i] = msg->position[i];
+[2.290s]       |             [01;31m[K^~~~~~~[m[K
+[2.290s]       |             [32m[Kposition[m[K
+[2.293s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[2.293s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[2.293s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[2.293s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[2.293s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[2.293s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[2.293s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.293s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[2.293s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[2.293s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_walk_example.cpp:6[m[K:
+[2.293s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.293s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.293s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.297s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_walk_example.cpp:7[m[K:
+[2.297s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:[m[K In function ‘[01m[KUNITREE_LEGGED_SDK::HighCmd rosMsg2Cmd(const SharedPtr&)[m[K’:
+[2.297s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/include/convert.h:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct UNITREE_LEGGED_SDK::HighCmd[m[K’ has no member named ‘[01m[Kpostion[m[K’; did you mean ‘[01m[Kposition[m[K’?
+[2.297s]    44 |         cmd.[01;31m[Kpostion[m[K[i] = msg->position[i];
+[2.297s]       |             [01;31m[K^~~~~~~[m[K
+[2.297s]       |             [32m[Kposition[m[K
+[2.906s] gmake[2]: *** [CMakeFiles/ros2_position_example.dir/build.make:76: CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o] 오류 1
+[2.906s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ros2_position_example.dir/all] 오류 2
+[2.907s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[2.907s] gmake[2]: *** [CMakeFiles/ros2_walk_example.dir/build.make:76: CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o] 오류 1
+[2.907s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ros2_walk_example.dir/all] 오류 2
+[4.606s] gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] 오류 1
+[4.606s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ros2_udp.dir/all] 오류 2
+[4.606s] gmake: *** [Makefile:146: all] 오류 2
+[4.608s] Invoked command in '/home/dong/ros2_ws/build/unitree_legged_real' returned '2': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/ros2_ws/build/unitree_legged_real -- -j8 -l8

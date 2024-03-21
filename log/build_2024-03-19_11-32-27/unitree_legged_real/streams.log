@@ -1,0 +1,120 @@
+[0.048s] Invoking command in '/home/dong/ros2_ws/build/unitree_legged_real': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/dong/ros2_ws/src/unitree_ros2_to_real -DCMAKE_INSTALL_PREFIX=/home/dong/ros2_ws/install/unitree_legged_real
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.171s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.450s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.509s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.543s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.547s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.632s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.705s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.725s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.767s] -- Looking for pthread.h
+[0.813s] -- Looking for pthread.h - found
+[0.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.859s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.860s] -- Found Threads: TRUE  
+[0.975s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[0.975s] -- Found ros2_unitree_legged_msgs: 0.4.0 (/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+[0.984s] [0m-- CMAKE_SYSTEM_PROCESSOR: x86_64[0m
+[1.039s] -- Configuring done
+[1.048s] -- Generating done
+[1.048s] -- Build files have been written to: /home/dong/ros2_ws/build/unitree_legged_real
+[1.055s] Invoked command in '/home/dong/ros2_ws/build/unitree_legged_real' returned '0': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/dong/ros2_ws/src/unitree_ros2_to_real -DCMAKE_INSTALL_PREFIX=/home/dong/ros2_ws/install/unitree_legged_real
+[1.056s] Invoking command in '/home/dong/ros2_ws/build/unitree_legged_real': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/ros2_ws/build/unitree_legged_real -- -j8 -l8
+[1.088s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[1.088s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[1.088s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[3.106s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[3.107s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[3.107s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[3.107s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[3.107s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[3.107s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[3.107s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[3.107s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[3.107s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[3.107s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_walk_example.cpp:6[m[K:
+[3.107s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[3.107s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[3.107s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.120s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[3.120s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[3.120s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[3.120s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[3.121s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[3.121s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[3.121s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[3.121s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[3.121s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[3.121s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[3.121s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[3.121s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[3.121s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.121s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[3.121s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[3.121s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[3.121s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[3.122s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[3.122s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[3.122s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[3.122s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[3.122s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[3.122s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_position_example.cpp:6[m[K:
+[3.122s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[3.122s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[3.122s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.129s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:[m[K In constructor ‘[01m[KCustom::Custom()[m[K’:
+[3.129s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:29:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(int)[m[K’
+[3.129s]    29 |         : [01;31m[Klow_udp(0)[m[K,
+[3.129s]       |           [01;31m[K^~~~~~~~~~[m[K
+[3.129s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+[3.129s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[3.129s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum, bool)[m[K’
+[3.129s]    46 |   [01;36m[KUDP[m[K(uint16_t localPort,
+[3.130s]       |   [01;36m[K^~~[m[K
+[3.130s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:46:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 1 provided
+[3.130s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint16_t, const char*, uint16_t, int, int, bool, UNITREE_LEGGED_SDK::RecvEnum)[m[K’
+[3.130s]    44 |   [01;36m[KUDP[m[K(uint16_t localPort, const char* targetIP, uint16_t targetPort,
+[3.130s]       |   [01;36m[K^~~[m[K
+[3.130s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:44:3:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 1 provided
+[3.130s] In file included from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:10[m[K,
+[3.130s]                  from [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[3.130s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KUNITREE_LEGGED_SDK::UDP::UDP(uint8_t, uint16_t, const char*, uint16_t)[m[K’
+[3.130s]    43 |   [01;36m[KUDP[m[K(uint8_t level, uint16_t localPort, const char* targetIP, uint16_t targetPort);  // udp use dafault length according to level
+[3.130s]       |   [01;36m[K^~~[m[K
+[3.130s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:43:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.130s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr UNITREE_LEGGED_SDK::UDP::UDP(const UNITREE_LEGGED_SDK::UDP&)[m[K’
+[3.131s]    41 | class [01;36m[KUDP[m[K {
+[3.131s]       |       [01;36m[K^~~[m[K
+[3.131s] [01m[K/home/dong/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/udp.h:41:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst UNITREE_LEGGED_SDK::UDP&[m[K’
+[5.360s] [ 66%] [32m[1mLinking CXX executable ros2_walk_example[0m
+[5.366s] [ 83%] [32m[1mLinking CXX executable ros2_position_example[0m
+[5.371s] /usr/bin/ld: cannot find -lunitree_legged_sdk_amd64: 그런 파일이나 디렉터리가 없습니다
+[5.376s] /usr/bin/ld: cannot find -lunitree_legged_sdk_amd64: 그런 파일이나 디렉터리가 없습니다
+[5.400s] collect2: error: ld returned 1 exit status
+[5.401s] gmake[2]: *** [CMakeFiles/ros2_walk_example.dir/build.make:159: ros2_walk_example] 오류 1
+[5.402s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/ros2_walk_example.dir/all] 오류 2
+[5.402s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[5.407s] collect2: error: ld returned 1 exit status
+[5.408s] gmake[2]: *** [CMakeFiles/ros2_position_example.dir/build.make:159: ros2_position_example] 오류 1
+[5.408s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ros2_position_example.dir/all] 오류 2
+[5.771s] gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] 오류 1
+[5.771s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ros2_udp.dir/all] 오류 2
+[5.771s] gmake: *** [Makefile:146: all] 오류 2
+[5.773s] Invoked command in '/home/dong/ros2_ws/build/unitree_legged_real' returned '2': CMAKE_PREFIX_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs:/home/dong/ros2_ws/install/unitree_legged_real:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/ros2_ws/install/ros2_unitree_legged_msgs/lib:/home/dong/ros2_ws/install/unitree_legged_real/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/ros2_ws/build/unitree_legged_real -- -j8 -l8
